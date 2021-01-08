@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MJB - Portfolio</title>
+	    <!--Font awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+   
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!--Scroll reveal CDN-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<!-- Header starts -->
+<body class="openportfolio">
+	<a id="page-top"></a>
+	<header>
+		<div class="container">
+			<nav class="nav">
+				<!-- <div class="menu-toggle">
+					<i class="fas fa-bars"></i>
+					<i class="fas fa-times"></i>
+				</div> -->
+				<!-- MJB logo -->
+				<a href="index.html" class="logo active">MJB</a>
+				<!-- navbar menu -->
+				<ul class="nav-list">
+					<!-- <li class="nav-item">
+						<a href="index.html" class="nav-link active">Home</a>
+					</li> -->
+					<li class="nav-item">
+						<a href="about.html" class="nav-link">About</a>
+					</li>
+					<li class="nav-item">
+						<a href="skills.html" class="nav-link">Skills</a>
+					</li>
+					<li class="nav-item">
+						<div class="nav-link dropdown">
+							<div class="nav-link" id="dropdown-btn">Projects</div>
+							<div class="dropdown-content">
+								<a href="towbar.html">X-bar</a>
+								<a href="prosthetic.html">Implant Test Machine</a>
+								<a href="compactor.html">Binimize</a>
+								<a href="smartlock.html">Smartlock</a>
+							</div>
+						</div>
+						<!-- <a href="" class="nav-link">Projects</a> -->
+					</li>
+					<li class="nav-item">
+						<a href="resume.html" class="nav-link">Resume</a>
+					</li>
+					<li class="nav-item">
+						<a href="contact.html" class="nav-link">Contact</a>
+					</li>
+					<!-- <li class="nav-item">
+						<a href="" class="nav-link">Contact</a>
+					</li> -->
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- header ends -->
+	<!-- hero -->
+	<section class="hero" id="hero">
+		<!-- <div class="background-cover-color"></div> -->
+		<div class="container">	
+			<h2 class=sub-headline>
+				<span class="first-letter">D</span>ESIGN PORTFOLIO
+			</h2>
+			<h1 class="headline">Matthew J Bastow</h1>
+			<div class="headline-description">
+				<div class="separator">
+					<div class="line line-left"></div>
+					<div class="asterisk"><i class="fas fa-asterisk"></i></div>
+					<div class="line line-right"></div>
+				</div>
+				<div class="single-animation">
+					<a href="#home-about-me" class="btn cta-btn">EXPLORE</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- hero ends -->
+	<!-- about me  -->
+	<section class="about-me" id="home-about-me">
+		<div class="container">
+			<div class="my-info">
+				<div class="my-info-description padding-right animate-left">
+					<div class="global-headline">
+						<!-- <h1 class="headline headline-dark">My Story</h1> -->
+					</div>
+					<h3>Bristol Born.</h3>
+					<h3>Mechanical Engineer.</h3>
+					<h3>Designer.</h3>
+					<h3>Explorer.</h3>
+					<a href="about.html" class="learn-more"><b>Learn more</b></a>
+				</div>
+				<div class="my-info-img animate-right">
+					<img src="images/home/profile.png" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- about me section ends -->
+	
+	<!-- Projects slidwshow -->
+	<section class="carousel-home">
+		<div class="carousel-div">
+			<h2 class="problem-headline">PROJECTS</h2>
+			<hr>
+			<!-- <div class="carousel-headline-underline"></div> -->
+			<button class="carousel_button carousel_button--left is-hidden">
+				<i class="fas fa-chevron-left"></i>
+			</button>
+			<div class="carousel_track-container">
+				<ul class="carousel__track">
+					<li class="carousel__slide current_slide">
+						<a href="towbar.html" class="track__header">
+							<div class="">X-BAR</div>
+						</a>
+						<img src="images/home/towbar-icon.png" alt="">
+					</li>
+					<li class="carousel__slide">
+						<a href="prosthetic.html" class="track__header">
+							<div class="">IMPLANT TEST MACHINE</div>
+						</a>
+						<img src="images/home/prosthetic-icon.png" alt="">
+					</li>
+					<li class="carousel__slide">
+						<a href="compactor.html" class="track__header">
+							<div class="">BINIMIZE</div>
+						</a>
+						<img src="images/home/compactor-icon.png" alt="">
+					</li>
+					<li class="carousel__slide">
+						<a href="smartlock.html" class="track__header">
+							<div class="">SMART LOCK</div>
+						</a>
+						<img src="images/home/smartlock-icon.png" alt="">
+					</li>
+				</ul>
+			</div>
+			<button class="carousel_button carousel_button--right">
+				<i class="fas fa-chevron-right"></i>
+			</button>
+			<div class="carousel__nav">
+				<button class="carousel__indicator current_slide"></button>
+				<button class="carousel__indicator"></button>
+				<button class="carousel__indicator"></button>
+				<button class="carousel__indicator"></button>	
+			</div>
+		</div>
+	</section>
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			<div class="back-to-top">
+				<a href="#hero"><i class="fas fa-chevron-up"></i></a>
+			</div>
+			<div class="footer-content">
+				<div class="footer-content-about animate-top">
+					<h4>MJB|2020</h4>
+					<div class="asterisk-footer"><i class="fas fa-asterisk"></i></div>
+					<h4>ENGINEERING|DESIGN</h4>
+				</div>
+				<div class="footer-content-divider animate-bottom">
+					<div class="social-media">
+						<ul class="social-icons">
+							<li>
+								<a href="https://www.linkedin.com/in/matthew-bastow-2848a4106" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+							</li>
+							<li>
+								<a href="mailto:matthewjbastow@gmail.com"><i class="fas fa-envelope"></i></a>
+							</li>
+							<li>
+								<a href="https://www.google.com/" target="_blank"><i class="fab fa-google"></i></a>
+							</li>
+							<li>
+								<a href="tel:+61435019935"><i class="fas fa-phone"></i></a>
+							</li>
+						</ul>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+<script src="main.js"></script>
+<script src="carousel.js"></script>
+</body>
+</html>

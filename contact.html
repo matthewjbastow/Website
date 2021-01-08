@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MJB - Portfolio</title>
+	    <!--Font awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!--Scroll reveal CDN-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<!-- Header starts -->
+<body class="openportfolio_contact">
+	<a id="page-top"></a>
+	<header>
+		<div class="container">
+			<nav class="nav">
+				<!-- <div class="menu-toggle">
+					<i class="fas fa-bars"></i>
+					<i class="fas fa-times"></i>
+				</div> -->
+				<!-- MJB logo -->
+				<a href="index.html" class="logo">MJB</a>
+				<!-- navbar menu -->
+				<ul class="nav-list">
+					<!-- <li class="nav-item">
+						<a href="index.html" class="nav-link">Home</a>
+					</li> -->
+					<li class="nav-item">
+						<a href="about.html" class="nav-link">About</a>
+					</li>
+					<li class="nav-item">
+						<a href="skills.html" class="nav-link">Skills</a>
+					</li>
+					<li class="nav-item">
+						<div class="dropdown">
+							<div class="nav-link" id="dropdown-btn">Projects</div>
+							<div class="dropdown-content">
+								<a href="towbar.html">X-bar</a>
+								<a href="prosthetic.html">Implant Test Machine</a>
+								<a href="compactor.html">Binimize</a>
+								<a href="smartlock.html">Smartlock</a>
+							</div>
+						</div>
+						<!-- <a href="" class="nav-link">Projects</a> -->
+					</li>
+					<li class="nav-item">
+						<a href="resume.html" class="nav-link">Resume</a>
+					</li>		
+					<li class="nav-item">
+						<a href="" class="nav-link active">Contact</a>
+					</li>
+					<!-- <li class="nav-item">
+						<a href="" class="nav-link">Contact</a>
+					</li> -->
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- header ends -->
+	<div class="contact-banner">
+		<!-- <img src="images/contact/banner-1.jpg" alt=""> -->
+		<div class="contact-banner-text">
+			<h1>Get In Touch</h1>
+			<div class="contact-banner-description">
+				Any questions or want to know more? I'd love to hear from you!
+			</div>
+		</div>
+		<div class="contact-banner-cover"></div>
+	</div>
+	<!-- contact section -->
+	<section class="contact-section">
+		<div class="contact-container">
+			<div class="contact-container-content">
+				<div class="contact-form-container">
+					<form action="https://formspree.io/f/maylayze" method="POST" class="contact-form-name" id="my-form">
+						<input type="text" class="contact-input" placeholder="Name" name="name">
+						<input type="text" class="contact-input" placeholder="E-mail" name="email">
+						<textarea wrap="soft" name="message-textarea" rows="10" id="message-textarea" placeholder="Your message..."></textarea>
+						<button class="send" type="submit">SEND MESSAGE</button>
+					</form>
+					<div id="status"></div>			
+				</div>
+				<div class="contact-icons-content">
+					<div class="location-container">
+						<div class="contact-icon-container">
+							<i class="fas fa-map-marker-alt"></i>							
+						</div>
+						<div class="contact-icon-text">Bristol, UK</div>
+					</div>
+					<div class="mail-container">
+						<div class="contact-icon-container">
+							<a href="mailto:matthewjbastow@gmail.com"><i class="fas fa-envelope"></i></a>	
+						</div>
+						<div class="contact-icon-text">
+						<a href="mailto:matthewjbastow@gmail.com">matthewjbastow@gmail.com</a></div>
+					</div>
+					<div class="phone-container">
+						<div class="contact-icon-container">
+							<a href="tel:+61435019935"><i class="fas fa-phone"></i></a>					
+						</div>
+						<div class="contact-icon-text"><a href="tel:+61435019935">(+61) 435 019 935</a></div>
+					</div>
+					<div class="linked-container">
+						<div class="contact-icon-container">
+							<a href="https://www.linkedin.com/in/matthew-bastow-2848a4106" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+						</div>
+						<div class="contact-icon-text">
+							<a href="https://www.linkedin.com/in/matthew-bastow-2848a4106" target="_blank">linkedin.com/in/matthew-bastow-2848a4106/</a>
+						</div>
+					</div>		
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			<div class="footer-content">
+				<div class="footer-content-about animate-top">
+					<h4>MJB|2020</h4>
+					<div class="asterisk-footer"><i class="fas fa-asterisk"></i></div>
+					<h4>ENGINEERING|DESIGN</h4>
+				</div>
+			</div>
+		</div>
+	</footer>
+<script src="main.js"></script>
+<script src="myScript.js"></script>
+<script src="formScript.js"></script>
+</body>
+</html>

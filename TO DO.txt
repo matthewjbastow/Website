@@ -1,0 +1,56 @@
+TO DO 
+
+DONT LOSE SIGHT OF WHAT THIS IS FOR - DONT GET CAUGHT UP PERFECTING! Can always improve later down the line - just want to get the ball rolling now
+
+
+-SORT LAYOUT FOR PROJECTS 
+
+
+- animate arrows + animate-left / animate-right
+- redo sizing of pages to allow for scaling 
+- make responsivve for smart phones 
+
+projects 
+- jump to section
+- key takeaways
+
+
+
+General:
+- Choose body font
+
+
+Home:
+
+- My story animate left and right
+
+- Down to projects arrows
+
+- Finalise projects font + position 
+
+
+About:
+- hyperlink company icons
+
+
+Towbar:
+
+- background collapsible?
+- final design - work out how to add features onto it - draw the lines yourself in AI
+
+
+Prosthetic: 
+
+- superimpose other graph in AI
+
+- carousel:
+	- remove white from diagrams
+	- add bigger numbers?
+	- sort out font size 
+
+
+Contact:
+- sort out button styling
+
+
+

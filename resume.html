@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MJB - Portfolio</title>
+	    <!--Font awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!--Scroll reveal CDN-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<!-- Header starts -->
+<body class="openportfolio">
+	<header>
+		<div class="container">
+			<nav class="nav">
+				<!-- <div class="menu-toggle">
+					<i class="fas fa-bars"></i>
+					<i class="fas fa-times"></i>
+				</div> -->
+				<!-- MJB logo -->
+				<a href="index.html" class="logo">MJB</a>
+				<!-- navbar menu -->
+				<ul class="nav-list">
+					<!-- <li class="nav-item">
+						<a href="index.html" class="nav-link">Home</a>
+					</li> -->
+					<li class="nav-item">
+						<a href="about.html" class="nav-link">About</a>
+					</li>
+					<li class="nav-item">
+						<a href="skills.html" class="nav-link">Skills</a>
+					</li>
+					<li class="nav-item">
+						<div class="dropdown">
+							<div class="nav-link" id="dropdown-btn">Projects</div>
+							<div class="dropdown-content">
+								<a href="towbar.html">X-bar</a>
+								<a href="prosthetic.html">Implant Test Machine</a>
+								<a href="compactor.html">Binimize</a>
+								<a href="smartlock.html">Smartlock</a>
+							</div>
+						</div>
+						<!-- <a href="" class="nav-link">Projects</a> -->
+					</li>
+					<li class="nav-item">
+						<a href="resume.html" class="nav-link active">Resume</a>
+					</li>
+					<li class="nav-item">
+						<a href="contact.html" class="nav-link">Contact</a>
+					</li>
+					<!-- <li class="nav-item">
+						<a href="" class="nav-link">Contact</a>
+					</li> -->
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- header ends -->
+	<section class="resume-section">
+		<div class="resume-container">
+			<div class="resume-left-container">
+				<div class="resume-left-text">
+					<div class="download-resume-box">
+						<i class="fas fa-cloud-download-alt"></i>
+						<a href=""></a>
+						<button type="submit" onclick="window.open('../portfolio_2.1.pdf')" class="download-resume-button">
+							DOWNLOAD RESUME
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="resume-right-container">
+				<!-- <div class="resume-img-container">
+					<img src="images/resume/resume.png" alt="">
+				</div> -->
+				<div class="resume-carousel-container">
+					<div class="resume-img-container">
+						<button class="carousel_button resume carousel_button--left is-hidden">
+							<!-- <i class="fas fa-chevron-left"></i> -->
+						</button>
+						<div class="carousel_track-container resume">
+							<ul class="carousel__track resume">
+								<li class="carousel__slide resume current_slide">
+									<img src="images/resume/resume.png" alt="">
+								</li>
+								<li class="carousel__slide resume">
+									<img src="images/resume/resume.jpg" alt="">
+								</li>
+							</ul>
+						</div>
+						<button class="carousel_button resume carousel_button--right">
+							<!-- <i class="fas fa-chevron-right"></i> -->
+						</button>
+						<div class="carousel__nav resume">
+							<button class="carousel__indicator resume current_slide"></button>
+							<button class="carousel__indicator resume"></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- footer -->
+	<footer class="resume-footer">
+		<div class="resume-footer-container">
+			<div class="footer-content">
+				<div class="footer-content-about animate-top">
+					<h4>MJB|2020</h4>
+					<div class="asterisk-footer"><i class="fas fa-asterisk"></i></div>
+					<h4>ENGINEERING|DESIGN</h4>
+				</div>
+				<div class="footer-content-divider animate-bottom">
+					<div class="social-media">
+						<ul class="social-icons">
+							<li>
+								<a href="https://www.linkedin.com/in/matthew-bastow-2848a4106" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+							</li>
+							<li>
+								<a href="mailto:matthewjbastow@gmail.com"><i class="fas fa-envelope"></i></a>
+							</li>
+							<li>
+								<a href="https://www.google.com/" target="_blank"><i class="fab fa-google"></i></a>
+							</li>
+							<li>
+								<a href="tel:+61435019935"><i class="fas fa-phone"></i></a>
+							</li>
+						</ul>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+<script src="main.js"></script>
+<script src="carousel.js"></script>
+</body>
+</html>
