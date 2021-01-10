@@ -209,7 +209,7 @@ header {
 }*/
 
 .single-animation {
-	font-size: 2.2vh;
+	font-size: 1vw;
 	background-color: black;
 	padding: 1vh 3vh;
 	width: 8%;
@@ -222,7 +222,6 @@ header {
 	opacity: 0;
 	animation: fadeDown 1.5s forwards, bounce 1s infinite alternate;
 	animation-delay: 1s;
-
 }
 
 .single-animation a {
@@ -349,6 +348,16 @@ header {
 	/*border-radius: px;*/
 }
 
+.down-to-project i {
+	position: relative;
+	text-decoration: none;
+	color: white;
+	font-size: 4vh;
+	animation: down 2s infinite;
+	left: 1%;
+	margin-top: 2%;
+	/*bottom: 200px;*/
+}
 
  /*projects */
 
@@ -363,12 +372,13 @@ header {
  .down-to-projects {
  	width: 7rem;
  	height: 7rem;
- 	background-color: #DCDCDC;
+ 	background-color: white;
  	position: absolute;
- 	top: -3rem;
+ 	bottom: -7vh;
  	left: 50%;
  	transform: translateX(-50%);
  	border-radius: 50%;
+ 	color: white;
  	/*z-index: 1;*/
  }
 
@@ -385,8 +395,6 @@ header {
 	padding: 5rem;
 }
 
-
-
 /* Carousel */
 
 .carousel-home {
@@ -398,6 +406,7 @@ header {
 
 .carousel-home.towbar {
 	height: 100vh;
+	position: relative;
 }
 
 .carousel-div {
@@ -489,7 +498,7 @@ header {
 }
 
 .track__header div:hover {
-	color: rgb(255, 177, 10);
+	color: rgb(255, 120, 10);
 	transition: 0.5s;
 }
 
@@ -563,11 +572,11 @@ header {
 }
 
   .back-to-top {
- 	width: 7rem;
- 	height: 7rem;
+ 	width: 5vw;
+ 	height: 5vw;
  	background-color: black;
  	position: absolute;
- 	top: -3rem;
+ 	top: -5vh;
  	left: 50%;
  	transform: translateX(-50%);
  	border-radius: 50%;
@@ -577,7 +586,7 @@ header {
  	display: block;
  	color: #fff;
  	font-size: 2rem;
- 	padding: 2rem;
+ 	padding: 34% 0;
  	animation: up 2s infinite;	
  }
 
@@ -671,7 +680,7 @@ header {
 
 .about-me-container {
 	width: 100%;
-	background-color: rgb(260, 240, 30, 0.8);
+	background-color: rgb(255, 230, 30, 0.8);
 	/*background-color: rgb(240, 240, 260);*/
 	display: flex;
 	justify-content: center;
@@ -881,7 +890,7 @@ button.collapsible.active{
 .text-panel {
 	align-self: center;
 	width: 40%;
-	padding: 0 5%; 
+	padding: 0 4% 0 6%; 
 	font-size: 1vw;
 	text-align: justify;
 }
@@ -914,6 +923,7 @@ button.collapsible.active{
 	overflow: hidden;
 	margin: 0 5%;
 	height: 50vh;
+	background-color: rgb(252, 128, 12);
 	background-color: rgb(260, 220, 30, 1);
 }
 
@@ -1051,7 +1061,7 @@ hr {
 
 .prosthetic-problem-img-background {
 	width: 100%;
-	background: url(../images/prosthetic/prosthetic-problem.jpg) no-repeat center;
+	background: url(../images/prosthetic/prosthetic-problem-1.png) no-repeat center;
 	height: 35vw;
 	background-size: contain;
 	background-attachment: fixed;
@@ -1187,7 +1197,7 @@ hr {
 .prosthetic div, .prosthetic p,
 .compactor div, .compactor p,
 .smartlock div, .smartlock p {
-	animation: show 20s infinite;
+	animation: show-circles 20s infinite;
 }
 
 .towbar div, .towbar p {
@@ -1364,7 +1374,6 @@ hr {
 	font-family: var(--body-font);
 	font-size: 2.5vh;
 	text-align: justify;
-
 }
 
 .prototype-text-numbers ul {
@@ -1656,7 +1665,7 @@ hr {
 	margin: 0 5%;
 	height: 50vh;
 	/*background-color: hsla(199, 50%, 50%, 0.3);*/
-	background-color: rgb(260, 240, 30, 1);
+	background-color: rgb(260, 220, 30, 1);
 }
 
 .compactor-front-page-container {
@@ -1787,6 +1796,7 @@ hr {
 	color: black;
 	border-bottom: 4px solid black;
 	font-family: var(--secondary-font);
+	margin-bottom: 5px;
 }
 
 .compactor-calculating-text-div-right {
@@ -1807,6 +1817,7 @@ hr {
 	text-align: center;
 	border-bottom: 4px solid white;
 	font-family: var(--secondary-font);
+	margin-bottom: 5px;
 }
 
 /* MOSAIC */
@@ -1833,7 +1844,7 @@ hr {
 
 .prototype-compactor-content-container-img img {
 	width: 100%;
-	padding: 10% 20%;
+	padding: 10% 12% 10% 28%;
 }
 
 .prototype-compactor-content-container-text {
@@ -1843,7 +1854,9 @@ hr {
 	justify-content: center;
 }
 
-
+.prototype-text-numbers.compactor p{
+	font-size: 2.3vh;
+}
 
 
 
@@ -1872,7 +1885,7 @@ hr {
 	height: 50vh;
 	/*background-color: hsla(240, 20%, 50%, 0.3);*/
 	/*background-color: rgb(250, 240, 50, 0.8);*/
-	background-color: rgb(260, 195, 30, 1);
+	background-color: rgb(260, 220, 30, 1);
 }
 
 .smartlock-front-page-container {
@@ -1961,6 +1974,7 @@ hr {
 	position: relative;
 	display: flex;
 	width: 100%;
+	margin-bottom: 2%;
 }
 
 .smartlock-description-container-left {
@@ -2017,6 +2031,7 @@ hr {
 .hand-container img {
 	width: 100%;
 	max-width: 100%;
+	filter: contrast(120%);
 }
 
 .smartlock-description-container-right {
@@ -2219,7 +2234,7 @@ hr {
 	/*background-color: rgb(251, 210, 54, 0.3);*/
 	/*background-color: hsla(54, 96%, 56%, 0.7)*/
 	/*background-color: hsla(240, 20%, 50%, 0.3);*/
-	background-color: rgb(260, 195, 30, 1);
+	background-color: rgb(260, 220, 30, 1);
 }
 
 .towbar-front-page-container {
@@ -2404,6 +2419,13 @@ hr {
 
 /* TOWBAR FINAL DESIGN */
 
+
+.final-design-section {
+	position: relative;
+	width: 100%;
+	height: 70vw;
+}
+
 .final-design-section h1 {
 	margin-top: 5vh;
 }
@@ -2417,6 +2439,85 @@ hr {
 .final-design-content {
 	position: relative;
 	width: 100%;
+	height: 80vh;
+}
+
+.towbar-concept-description-mainbody {
+	width: 100%;
+	position: absolute;
+	align-items: flex-end;
+	display: flex;
+	bottom: 0;
+	font-size: 1vw;
+	color: black;
+}
+
+.towbar-concept-description-mainbody h3 {
+	font-size: 2vw;
+}
+.pointer-border-1-dark {
+	position: absolute;
+	bottom: 0%;
+	left: 5.5%;
+	height: 40vw;
+	width: 0.3vw;
+	background-color: black;
+}
+
+.pointer-border-2-dark {
+	position: absolute;
+	bottom: 0%;
+	left: 33%;
+	height: 15vw;
+	width: 0.3vw;
+	background-color: black;
+}
+
+.pointer-border-3-dark {
+	position: absolute;
+	bottom: 0%;
+	left: 53%;
+	height: 26vw;
+	width: 0.3vw;
+	background-color: black;
+}
+
+.pointer-border-4-dark {
+	position: absolute;
+	bottom: 0%;
+	left: 77%;
+	height: 28vw;
+	width: 0.3vw;
+	background-color: black;
+}
+
+.hook,
+.common,
+.cover,
+.fasteners {
+	width: 15%;
+	color: black;
+}
+
+.hook {
+	position: absolute;
+	left: 6.5%;
+	bottom: 2%;
+}
+
+.common {
+	position: absolute;
+	left: 34%;
+}
+
+.cover {
+	position: absolute;
+	left: 54%;
+}
+
+.fasteners {
+	position: absolute;
+	left: 78%;
 }
 
 .final-design-img-container {
@@ -2432,6 +2533,7 @@ hr {
 
 .final-design-img-2-container {
 	position: relative;
+	margin-top: 5%;
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -2470,6 +2572,20 @@ hr {
 }*/
 
 /* Towbar carousel */
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin_load 2s linear infinite;
+}
+
+@keyframes spin_load {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 
 .carousel__indicator-towbar {
 	border: none;
@@ -2989,7 +3105,22 @@ hr {
 	}
 }
 
-@keyframes show {
+@keyframes down {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+		transform: translateY(.8rem);
+	}
+}
+
+@keyframes show-circles {
 	0% {
 		opacity: 0;
 	}
@@ -3006,3 +3137,4 @@ hr {
 		opacity: 0;
 	}
 }
+
