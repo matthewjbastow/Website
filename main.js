@@ -1,7 +1,7 @@
 
 // Scroll reveal
 
-window.sr = ScrollReveal():
+window.sr = ScrollReveal();
 
 sr.reveal('.animate-left', {
 	origin: 'left',
